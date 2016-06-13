@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDEFCDAA1D0F4E6200E0F2A8"
+               BuildableName = "Memorable Places.app"
+               BlueprintName = "Memorable Places"
+               ReferencedContainer = "container:Memorable Places.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDEFCDBE1D0F4E6300E0F2A8"
+               BuildableName = "Memorable PlacesTests.xctest"
+               BlueprintName = "Memorable PlacesTests"
+               ReferencedContainer = "container:Memorable Places.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CDEFCDC91D0F4E6300E0F2A8"
+               BuildableName = "Memorable PlacesUITests.xctest"
+               BlueprintName = "Memorable PlacesUITests"
+               ReferencedContainer = "container:Memorable Places.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDEFCDAA1D0F4E6200E0F2A8"
+            BuildableName = "Memorable Places.app"
+            BlueprintName = "Memorable Places"
+            ReferencedContainer = "container:Memorable Places.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDEFCDAA1D0F4E6200E0F2A8"
+            BuildableName = "Memorable Places.app"
+            BlueprintName = "Memorable Places"
+            ReferencedContainer = "container:Memorable Places.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDEFCDAA1D0F4E6200E0F2A8"
+            BuildableName = "Memorable Places.app"
+            BlueprintName = "Memorable Places"
+            ReferencedContainer = "container:Memorable Places.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
